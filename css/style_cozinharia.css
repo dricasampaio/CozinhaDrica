@@ -1,0 +1,98 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #141f45;
+    margin: 0;
+}
+
+
+main{
+    background-color: #f8f8f8;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+h1{ 
+    padding-top: 190px;
+    font-size: 42px;  
+    font-weight: lighter;  
+}
+
+h3{
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+
+}
+
+.esquerda{
+    display: inline-block;
+    width: 100%;
+    margin-right: 6%;
+}
+
+.direita{
+    display: inline-block;
+    margin-top: 172px;
+    
+}
+
+figure{
+    margin: 0;
+}
+
+figure img{
+    margin:0;
+    float: right;
+    width: 100%;
+}
+
+article p{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom:0px;
+    font-weight: 400;
+    color: #A3A3A3;
+}
+
+hr{ 
+    border-bottom: 3px solid #EED33E;
+    width: 100px;
+    margin-bottom: 24px;
+    margin:24px 0px 90px 0px;
+}
+
+article{
+    margin-bottom: 80px;
+}
+
+.galeria{
+
+        display: inline-table;
+        text-align: center;
+        margin-bottom: 32px;
+}
+
+section h4{
+    margin-left: 5%;
+}
+
+section img{
+    width: 15%;
+}
+;
+section h4{
+    margin-right: 5%;
+}

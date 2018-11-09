@@ -1,0 +1,130 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #141f45;
+    margin: 0;
+}
+
+
+main{
+    background-color: #f8f8f8;
+}
+
+
+
+h1{ 
+    padding-top: 190px;
+    font-size: 42px;  
+    font-weight: lighter;  
+}
+
+h3{
+    font-weight: lighter;
+    margin-bottom: 21px;
+}
+
+h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+
+}
+
+article p{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom:0px;
+    font-weight: lighter;
+    color: #141f45;
+    margin-bottom:30px;
+    line-height: 0.2;
+    
+}
+
+hr{ 
+    border-bottom: 3px solid #EED33E;
+    width: 100px;
+    margin-bottom: 24px;
+    margin:24px 0px 32px 0px;
+}
+
+.conteudo{
+
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+
+article{
+    padding-bottom: 44px;
+}
+
+article p{
+    margin-bottom: 24px;
+}
+
+.emailTel{
+    margin-bottom: -14px;
+}
+.emailTel p{
+    display: inline-block;
+}
+
+.emailTel img{
+    display: inline-block;
+    margin: 0 ;
+    top: 5px;
+}
+
+.enderecos{
+    margin-top:-12px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda{
+    width:49%;
+}
+
+.direita{
+    width:49%;
+}
+
+.mapa{
+    
+    width:100%;
+
+}
+
+#contatos .form {
+    display: block;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+	width: 90%;
+}
+
+input[type=text], input[type=email], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+        width: 90%;
+}
+
+
+.formularo{
+
+width: 25%;
+}
+
+.msg{
+    display: block;
+}

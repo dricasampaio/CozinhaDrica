@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cozinharia | Home</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="icon" href="http://projeto-cozinharia.habemus.website/img/favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/style_menu.css"> 
+        <link rel="stylesheet" type="text/css" href="../Cozinharia/css/style_contatos.css"> 
+        <link rel="stylesheet" type="text/css" href="../Cozinharia/css/style_footer.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <script src="../Cozinharia/js/myjs.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            
+            <div class="menu" id="myTopnav">
+            
+                <a href="index.html"> <img src="../Cozinharia/img/logo-cozinharia.svg"> </a>
+                
+                <nav>
+                        <ul id="meusBotoes">
+                        
+                                <li><a class="botaomenu " href="../Cozinharia/index.html"> Home </a> </li>
+                                <li><a class="botaomenu " href="../Cozinharia/a-cozinharia.html"> A Cozinharia </a></li> 
+                                <li><a class="botaomenu" href="../Cozinharia/cardapio.html"> Cardápio </a></li>
+                                <li class="dropdown">
+                                    <a class="botaomenu" href="javascript:void(0)" class="dropbtn">Eventos</a>
+                                    <div class="dropdown-content">
+                                      <a class="botaomenu" href="../Cozinharia/event_casamento.html">Casamentos</a>
+                                      <a class="botaomenu" href="../Cozinharia/event_empresa.html">Empresariais</a>
+                                    </div>
+                                  </li>
+                                <li><a class="botaomenu active" href="../Cozinharia/contatos.html"> Contato </a></li>
+                            </ul>           
+                </nav>
+
+            </div> 
+
+        </header> 
+
+        <main>
+
+            <div class="conteudo">
+
+                <h1> Contato </h1>
+                <hr>
+
+
+                <div class="colunas">
+                    <article class="contatos">
+
+                        <div class="esquerda">
+                        <p> Rua Frei Caneca, 920 - Consolação </p>
+                        <p> São Paulo - SP </p>
+
+                            <div class= enderecos>
+                            <div class="emailTel">
+                            <img src="http://projeto-cozinharia.habemus.website/img/icone-fone.svg" alt="telefone"> 
+                            <p>11 4443 0324</p>   
+                            </div>
+
+                            <div class="emailTel">
+                            <img src="http://projeto-cozinharia.habemus.website/img/icone-mail.svg" alt="e-mail"> 
+                            <p>contato@acozinharia.com.br </p>    
+                            </div>
+                        </div>
+                        </div>      
+                            
+                    
+                    
+                         <div class="direita">
+                        <p> <span style="font-weight: bold">Horário de funcionamento</span></p>
+                        <p>Segunda a Quarta das 12h às 15h / 19h30 às 23h</p> 
+                        <p>Quinta e Sexta das 12h às 15h / 19h30 às 00h</p> 
+                        <p>Sábado das 12h às 00h - direto</p> 
+                        <p>Domingo das 12h às 17h</p>
+                         </div>
+                         
+                    </article>
+                </div>
+                
+
+                    <div class="mapa">    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3579.415920224509!2d127.71719!3d26.215672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdf0e05275cd16eb!2sOkinawa+Prefectural+University+of+Arts!5e0!3m2!1spt-BR!2sbr!4v1539859032484" width="1300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>    
+
+                    <form class="formularo" action="contatos.html" method="POST">
+                        <h3>Entre em contato conosco!</h3>
+                        <form action="https://formspree.io/chibariyo@gmail.com" method="post">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="fname" name="nome" required="">
+            <br>
+                            <label for="email">Email</label>
+                            <input type="text" name="_replyto" required="">
+            <br>
+                            <label for="opcao">Assunto</label>
+                            <select id="opcao" name="assunto">
+                              <option value="Sugestoes">Críticas e sugestões</option>
+                              <option value="fornecedores">Fornecedores</option>
+                              <option value="reservas">Reservas</option>
+                              <option value="trabalhe">Trabalhe conosco</option>
+                            </select><br>
+
+                            <div class="msg">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="area-texto"></textarea>
+                            </div>
+            
+                            <input type="submit" value="Enviar" name="Enviar">
+            
+                          </form>    
+                    
+                    </form>        
+                </main>                
+            </div>
+        
+        <footer>
+            <div class="about">
+                <h5> A Cozinharia </h5>
+                <h5> Rua Frei Caneca, 920 - Consolação </h5>
+                <h5> Tel: 11 4443 0324 </h5>
+            </div>
+              
+            <div class="hours">
+                <h5> Horário de Funcionamento </h5>
+                <h5> Segunda a Quarta das 12h às 15h / 19h30 às 23h </h5>
+                <h5> Quinta e Sexta das 12h às 15h / 19h30 às 00h </h5>
+                <h5> Sábado das 12h às 00h - direto </h5>
+                <h5> Domingo das 12h às 17h </h5>
+            </div>
+        </footer>
+    </body>
+</html>
+      

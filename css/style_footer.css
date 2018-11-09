@@ -1,0 +1,39 @@
+
+h5{
+    font-weight: normal;
+    margin:0 auto;
+    line-height: 2;
+}
+
+
+footer{
+    background-color:#EED33E;
+    display: flex;
+
+}
+
+.about{
+    width: 49%;
+
+}
+.about,.hours{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+@media (max-width: 818px){
+    h5 {
+        font-weight: normal;
+        margin: 0 auto;
+        line-height: 2;
+        width: 75%;
+    }
+    .hours {
+        display: inline-block;
+        margin-right: 6%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+}

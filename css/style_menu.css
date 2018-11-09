@@ -1,0 +1,135 @@
+@media (max-width: 1900px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    
+    
+    
+    li a, .dropbtn {
+        display: inline-block;
+        color: darkslategrey;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: white;
+        color: rgb(155, 155, 155);
+    }
+    
+    li.dropdown {
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        
+    }
+    
+    .dropdown-content a {
+        color: darkslategray;
+        padding: 12px 14px;
+        text-decoration: none;
+        margin: 0;
+        display: block;
+        text-align: center;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    } 
+    /*aqui*/
+
+    header{
+        position: fixed;
+        width:100%;
+        background-color: #fefefe;
+        top: 0;
+        box-shadow: 0px 1px 2px 0px rgba(20,31,69,0.21);
+    }
+    .botaomenu {
+        border-bottom: 3px #EED33E;
+        cursor: pointer;
+        background-color: none;
+
+      }
+    
+      .active, .botaomenu:hover {
+        border-bottom: #EED33E;
+        background-color: none;
+        
+        
+      }
+      
+
+    ul{
+        list-style: none;
+        padding:0;
+        margin-left: 35px;
+        font-weight: lighter;
+    }
+
+    li a{
+        text-decoration: none;
+        margin-left:14px;
+        color:darkslategrey;
+        font-size: 16px;
+    }
+
+
+    li{
+        display: inline-flex;
+    }
+
+  
+    
+    header .menu img {
+        max-width: 100%;
+    }
+
+    header nav ul li a.active {
+        border-bottom: 3px solid #EED33E;
+        bottom: 60px;
+    }
+
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin-top: 37px;
+        margin-left: 5%;
+        margin-right:5%;
+    }
+}
+
+
+
+@media (max-width:812px){
+    nav{
+    display:none;
+    }
+
+    header{
+        height: 90px;
+    }
+
+
+    .menu{
+        margin-top:48px;
+    }
+}
